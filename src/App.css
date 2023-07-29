@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(238, 234, 234);
+}
+
+.content-wrapper {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.balance {
+  margin-top: 15px;
+
+}
+
+.balance > h4 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.balance > h2 {
+  font-weight: 500;
+} 
+
+.income-expense-tracker {
+  height: 100px;
+  border: 2px solid gray;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 15px;
+
+}
+
+.left {
+  border-right: 1px solid gray;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.right {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left > h2 {
+  color: green;
+}
+
+.right > h2 {
+  color: red;
+}
+
+.history-wrapper > h4 {
+  border-bottom: 2px solid gray;
+  margin-top: 15px;
+}
+
+.cash-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border: 1px solid gray;
+  margin-top: 15px;
+  background-color:white;
+  padding: 0px 5px 0px 5px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding-left: 5px;
+}
+
+.amount-wrapper {
+  height: 40px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-size: 20px;
+}
+
+.amount-wrapper  span {
+  margin-left: 5px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.top > h4 {
+  border-bottom: 2px solid gray;
+  margin: 15px 0px 15px 0px;
+}
+
+
+.bottom {
+  margin-top: 20px;
+}
+
